@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "e55fbacf-2c0c-401b-b73e-e30e8d0080a3",
+		"name": "Update_Image",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12137605"
+	},
+	"item": [
+		{
+			"name": "Update_Image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "HgNt1fT6Z/image.png.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/process-image",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"process-image"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
