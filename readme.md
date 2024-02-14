@@ -1,7 +1,6 @@
 
 ---
 
-# Project Name: Coolify Your Image
 
 ## Description
 
@@ -72,9 +71,9 @@ This Flask application detects faces in uploaded images, blurs the faces, and ov
 
 3. **Postman Collection**
 
-    - A Postman collection is included in the root folder of the project (`Coolify_Your_Image.postman_collection.json`). Import this collection into Postman to easily test the application.
+    - A Postman collection is included in the root folder of the project (`Update_Image.json`). Import this collection into Postman to easily test the application.
     - Make sure to attach the image you want to process with the request under the form-data section with the key `image`.
-    - The image is already present in the postman collection and the output of the processed image "update_image.png" at the project root
+    - The image is already present in the folder were the postman collection is present and the output of the processed image "update_image.png" is present at the project root
 
 ## Endpoint Details
 
