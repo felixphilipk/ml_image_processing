@@ -1,6 +1,6 @@
-Flask==2.0.1
-mtcnn==0.1.0
-opencv-python==4.5.3.56
-Pillow==8.3.1
-numpy==1.19.5
-tensorflow==2.6.0
+Flask
+mtcnn
+opencv-python
+Pillow
+numpy
+tensorflow
